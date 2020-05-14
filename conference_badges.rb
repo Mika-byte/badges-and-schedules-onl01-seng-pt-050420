@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(name)
 name.each do |badge_maker| 
-
+badge_maker(name)
   end
 end  
 
